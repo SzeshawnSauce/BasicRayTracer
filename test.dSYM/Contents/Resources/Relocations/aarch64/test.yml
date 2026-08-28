@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shawnlee/Desktop/ Comp_Graphics/BasicRayTracer/test'
+relocations:     []
+...
