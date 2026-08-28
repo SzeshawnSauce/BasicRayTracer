@@ -1,3 +1,6 @@
+#ifndef IMAGE_H
+#define IMAGE_H
+
 #include <vector>
 #include "vec3.h"
 #include "color.h"
@@ -15,13 +18,15 @@ class Image
         {
         }
 
-    void updatePixel(int x, int y, Color color)
-    {
-        pixels[y * width + x] = color;
-    }
+        void updatePixel(int x, int y, Color color)
+        {
+            pixels[y * width + x] = color;
+        }
 
-    Color getPixel(int x, int y)
-    {
-        return pixels[y * width + x];
-    }
+        Color getPixel(int x, int y)
+        {
+            return pixels[y * width + x];
+        }
 };
+
+#endif
