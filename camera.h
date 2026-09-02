@@ -13,7 +13,7 @@ struct Camera
     //Up direction on camera (for camera orientation)
     Vec3 up;
     //Field of view, how much of the world camera sees
-    double fovy;
+    double fov;
     //Aspect ratio, width/height of image
     double aspect;
     int width;
